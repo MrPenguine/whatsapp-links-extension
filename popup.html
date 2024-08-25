@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WhatsApp Group Links</title>
+    <style>
+      body {
+        width: 400px;
+        max-height: 500px;
+        overflow-y: auto;
+        font-family: Arial, sans-serif;
+      }
+      h2 {
+        color: #075e54;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #128c7e;
+        color: white;
+      }
+      button {
+        background-color: #25d366;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        margin: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #128c7e;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>WhatsApp Group Links</h2>
+    <button id="saveCSV">Save as CSV</button>
+    <button id="openFullPage">Open Full Page</button>
+    <table id="linkTable">
+      <tr>
+        <th>Group Name</th>
+        <th>Link</th>
+      </tr>
+    </table>
+    <script src="popup.js"></script>
+  </body>
+</html>
